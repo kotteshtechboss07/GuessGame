@@ -1,0 +1,68 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("https://p7.hiclipart.com/preview/19/677/223/guess-the-number-game-android-bengali-android.jpg");
+  background-size: cover;
+  background-position: center;
+  overflow-y: hidden;
+}
+.container {
+  text-align: center;
+  background-image: url("https://p7.hiclipart.com/preview/19/677/223/guess-the-number-game-android-bengali-android.jpg");
+  padding: 20px;
+  border-radius: 8px;
+  border: 3px solid red;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+  width: 300px;
+}
+
+p {
+  margin-bottom: 20px;
+  color: rebeccapurple;
+  font-weight: bold;
+  font-family: cursive;
+}
+
+input[type="number"] {
+  padding: 5px;
+  font-size: 16px;
+  border: 1px solid purple;
+  border-radius: 4px;
+  width: 100%;
+  margin-bottom: 30px;
+}
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: red;
+  color: #fff;
+  border: 2px solid red;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+h2 {
+  margin-bottom: 10px;
+  background-image: conic-gradient( #553c9a 0%, #553c9a 33%, #ee4b2b 33%, #ee4b2b 66%, #00c2cb 66%, #00c2cb 99%);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-family: cursive;
+}
+img {
+  margin-top: 10px;
+  max-width: 100%;
+  height: auto;
+}
+h3{
+  color: rebeccapurple;
+  font-weight:bold;
+  font-family:cursive;
+}
