@@ -18,7 +18,7 @@ export default function App() {
   return (
     <div className="container">
       <h2>Guess the number</h2>
-      <p>Guess a number between 0 and 10</p>
+      <p>Guess a number between 0 to 10</p>
       <input type="number" value={value} onChange={(e) => setValue(e.target.value)} />
       <button type="button" onClick={onClicks}>
         Guess
